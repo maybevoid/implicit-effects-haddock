@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><link rel="stylesheet" type="text/css" href="style.css" /><script type="text/javascript" src="highlight.js"></script></head><body><pre><span>
+</span><a name="line-2"></a><span class="hs-keyword">module</span><span> </span><span class="hs-identifier">Control.Effect.Implicit.Base.Effect</span><span>
+</span><a name="line-3"></a><span>  </span><span class="hs-special">(</span><span> </span><a href="Control.Effect.Implicit.Base.Effect.html#Effect"><span class="hs-identifier hs-type">Effect</span></a><span>
+</span><a name="line-4"></a><span>  </span><span class="hs-special">)</span><span>
+</span><a name="line-5"></a><span class="hs-keyword">where</span><span>
+</span><a name="line-6"></a><span>
+</span><a name="line-7"></a><span class="hs-comment">-- | A less scary type alias to `Monad`. We hope that implicit-effects can</span><span>
+</span><a name="line-8"></a><span class="hs-comment">-- help Haskell beginners to learn how to better structure effectful programs</span><span>
+</span><a name="line-9"></a><span class="hs-comment">-- without first going through all the struggles of understanding the</span><span>
+</span><a name="line-10"></a><span class="hs-comment">-- machineries of monad, monad transformers, free monad, extensible effects,</span><span>
+</span><a name="line-11"></a><span class="hs-comment">-- etc before they can properly write a &quot;good&quot; effectful program. Instead</span><span>
+</span><a name="line-12"></a><span class="hs-comment">-- beginners should be taught from first principles about algebraic effects,</span><span>
+</span><a name="line-13"></a><span class="hs-comment">-- and go through something similar to the</span><span>
+</span><a name="line-14"></a><span class="hs-comment">-- &lt;https://www.eff-lang.org/handlers-tutorial.pdf Eff language tutorial&gt;,</span><span>
+</span><a name="line-15"></a><span class="hs-comment">-- which does a great job explaning algebraic effects without mentioning the</span><span>
+</span><a name="line-16"></a><span class="hs-comment">-- M-word.</span><span>
+</span><a name="line-17"></a><span class="hs-keyword">type</span><span> </span><a name="Effect"><a href="Control.Effect.Implicit.Base.Effect.html#Effect"><span class="hs-identifier">Effect</span></a></a><span> </span><a name="local-6989586621679027256"><a href="#local-6989586621679027256"><span class="hs-identifier">eff</span></a></a><span> </span><span class="hs-glyph">=</span><span> </span><span class="hs-identifier hs-type">Monad</span><span> </span><a href="#local-6989586621679027256"><span class="hs-identifier hs-type">eff</span></a><span>
+</span><a name="line-18"></a><span>
+</span><a name="line-19"></a></pre></body></html>
